@@ -42,7 +42,7 @@ jobs:
 
       - name: Docker Scout Image Scan
         run: |
-          docker-scout quickview sevenajay/myntra:latest
-          docker-scout cves sevenajay/myntra:latest
+          docker-scout quickview shivaladdu/myntra:latest
+          docker-scout cves shivaladdu/myntra:latest
 
       
